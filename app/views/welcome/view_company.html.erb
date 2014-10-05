@@ -1,0 +1,17 @@
+Viewing company: <%= @company.company_name %>
+
+<br>
+
+Company Symbol: <%= @company.stock_symbol %>
+
+<br>
+
+Closing Price: <%= @company.closing_prices.first().closing_price %>
+
+<br>
+
+Current CEO: <%= @company.current_ceo %>
+
+<br>
+
+Newest Info:    <%= link_to "text", :action => "view_company_information",:id => @company.id %>

@@ -1,0 +1,7 @@
+Hello world!
+
+<br>
+
+<% for company in @companies %>
+    <%= link_to company.company_name, :action => "view_company", :id => company.id %><br>
+<% end %>
