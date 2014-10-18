@@ -1,0 +1,13 @@
+Viewing company: <%= @reports.title %>
+
+<br>
+
+Viewing body: <%= @reports.body %>
+
+<br>
+
+Viewing date: <%= @reports.issued_on %>
+
+<br>
+
+<%= link_to "Mark Report as Read", :action => "mark_as_read", :id => @reports.id %>

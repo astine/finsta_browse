@@ -1,0 +1,3 @@
+<% for report in @reports %>
+    <%= link_to report.title, :action => "view_report", :id => report.id %><br>
+<% end %>

@@ -8,6 +8,9 @@ Rails.application.routes.draw do
 
   get 'welcome/view_company' => 'welcome#view_company'
   get 'welcome/view_company_information' => 'welcome#view_company_information'
+  get 'welcome/list_unread_reports' => 'welcome#list_unread_reports'
+  get 'welcome/view_report' => 'welcome#view_report'
+  get 'welcome/mark_as_read' => 'welcome#mark_as_read'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
